@@ -1,0 +1,17 @@
+name: proximity_app
+description: Demo app
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ffi: ^2.0.1
+  http: ^0.13.5
+  location: ^4.4.0
+
+flutter:
+  uses-material-design: true
